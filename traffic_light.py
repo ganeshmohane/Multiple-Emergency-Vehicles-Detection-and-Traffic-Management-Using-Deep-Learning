@@ -1,34 +1,35 @@
-# Traditional Traffic Light
+# How Traffic Light work is that it stays neutral between night 
+# then continues from red to amber then green and then amber and whole loop continues
 
 import time
 
-def print_colored(text, color):
-    # ANSI escape codes for colors
-    colors = {
-        "red": "\033[91m",    # Red
-        "green": "\033[92m",  # Green
-        "orange": "\033[93m"  # Orange
-    }
-    reset = "\033[0m"  # Reset color
-
-    print(f"{colors[color]}{text}{reset}")
-
 def traffic_light():
-    for i in range(0, 24):
-        print('Traffic Light 🚥')
-        if emg_detected:
-            print_colored("Green light (Go for Emergency Vehicle 🚑)", "green")
-        else :
-            print_colored("Red light (Stop)", "red")
-        time.sleep(6)
+    if night:
+        print("In Night almost all traffic lights are on ideal mode")
+        print("🟡 Orange : Alert")
+        exit()
 
-        print_colored("Green light (Go)", "green")
-        time.sleep(6)
+    while day:    
+        print("🔴 Red : Stop")
+        amber(3)
+        print("🟢 Green : Go")
+        amber(5)
 
-        print_colored("Orange light (Be ready)", "orange")
-        time.sleep(2)
+def amber(n):
+    time.sleep(n)
+    print("🟡 Orange : Alert")
+    time.sleep(2)
+    # if emg_vehicle:
+    #     swiftpass()
+        # amber(2)
+        
 
-emg_detected = False
+def swiftpass():
+    print("🟢 Green : Safe Passage for emeregency vehicles")
+    time.sleep(6)
+
+day = True  
+night = False
+emg_vehicle = True
 traffic_light()
-
 
