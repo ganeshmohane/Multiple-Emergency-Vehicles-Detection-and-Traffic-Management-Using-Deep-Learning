@@ -49,7 +49,6 @@ def swiftpass():
     time.sleep(6)
     orange(5)
 
-
 day =  True
 night = False
 traffic_light()
