@@ -1,6 +1,22 @@
 # How Traffic Light work is that it stays neutral between night 
 # then continues from red to amber then green and then amber and whole loop continues
 
+
+# Main issues with traditonal Traffic Lights - 
+'''
+Fixed timing: The timing for each light phase is often fixed, which can lead to inefficient traffic flow, especially during peak hours.
+Limited adaptability: Traditional traffic lights are not able to adapt to changing traffic conditions in real time.
+Inefficient resource allocation: The fixed timing of traditional traffic lights can result in inefficient allocation of resources, such as road space.
+Susceptible to congestion: If traffic volume exceeds the capacity of the intersection, traditional traffic lights can become overwhelmed and lead to congestion.
+'''
+
+
+# Points - 
+# 1. Adjust Traffic Light Timing optimizing it where it requires most
+# 2. Detecting Emergency Vehicles & Adjusting Traffic Lights 
+# 3. Intelligent Pedestrian Crossing - Using Camera or Button input
+# 4. if someone using Google Map they can see Ambulances
+
 import time
 
 def traffic_light():
