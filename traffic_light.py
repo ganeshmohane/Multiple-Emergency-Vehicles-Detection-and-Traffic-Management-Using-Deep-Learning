@@ -5,31 +5,36 @@ import time
 
 def traffic_light():
     if night:
-        print("In Night almost all traffic lights are on ideal mode")
-        print("🟡 Orange : Alert")
+        print("In Night almost all traffic lights are on idle mode")
+        print("\033[5m\033[33m🟡 Orange : Alert\033[0m")
         exit()
 
     while day:    
-        print("🔴 Red : Stop")
-        amber(3)
-        print("🟢 Green : Go")
-        amber(5)
-
-def amber(n):
+        red(1)
+        green(1)
+        orange(1)
+        swiftpass()
+      
+def red(n):
+    print("\033[5m\033[31m🔴 Red : Stop\033[0m")
     time.sleep(n)
-    print("🟡 Orange : Alert")
+    
+def green(n):
+    print("\033[5m\033[32m🟢 Green : Go\033[0m")
+    time.sleep(n)
+    
+def orange(n):
+    print("\033[5m\033[33m🟡 Orange : Alert\033[0m")
     time.sleep(2)
-    # if emg_vehicle:
-    #     swiftpass()
-        # amber(2)
-        
 
 def swiftpass():
-    print("🟢 Green : Safe Passage for emeregency vehicles")
+    print("Emergency Vehicle Detected")
+    print("🟢 Green : Safe Passage for emergency vehicles")
     time.sleep(6)
+    orange(5)
 
-day = True  
+
+day =  True
 night = False
-emg_vehicle = True
 traffic_light()
 
