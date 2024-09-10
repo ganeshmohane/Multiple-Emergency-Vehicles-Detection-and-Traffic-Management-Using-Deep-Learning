@@ -1,2 +1,0 @@
-This kaggle public notebook link
-https://www.kaggle.com/code/ganeshmohane/cnn-model

@@ -1,0 +1,12 @@
+This kaggle public notebook link
+https://www.kaggle.com/code/ganeshmohane/cnn-model
+
+Github repo & YT of video emg vehicle detection
+https://www.youtube.com/watch?v=mas8uBnvHd8
+https://github.com/pradeepodela/Emergency-vehicles-detection
+
+Using Siren Emg Vehicle Identification
+https://www.kaggle.com/code/aryashah2k/emergency-vehicle-siren-sound-classification
+
+emg vehicle video dataset
+https://research.google.com/audioset/balanced_train/emergency_vehicle.html
