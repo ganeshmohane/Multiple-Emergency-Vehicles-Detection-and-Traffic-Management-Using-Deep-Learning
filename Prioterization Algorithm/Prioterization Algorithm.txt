@@ -1,0 +1,18 @@
+### **Emergency Vehicle Priority Algorithm**
+
+1. **Start**
+
+2. **Detect Emergency Vehicles**
+   - If no emergency vehicles are detected, **Stop**.
+
+3. **Prioritize Vehicles (if multiple emergency vehicles detected)**
+
+4. **For each detected emergency vehicle:**
+   - Check if the next traffic signal is green:
+     - If green, allow the vehicle to proceed.
+     - If not green, change the signal to green for the relevant lane for 10 seconds.
+   - Adjust the traffic flow by continuing to the next signal.
+
+5. **Repeat Step 4 for all emergency vehicles**
+
+6. **Stop**
