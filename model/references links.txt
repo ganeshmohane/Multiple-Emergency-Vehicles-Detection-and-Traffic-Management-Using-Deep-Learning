@@ -10,3 +10,5 @@ https://www.kaggle.com/code/aryashah2k/emergency-vehicle-siren-sound-classificat
 
 emg vehicle video dataset
 https://research.google.com/audioset/balanced_train/emergency_vehicle.html
+
+How to train YOLO : https://www.youtube.com/watch?v=wuZtUMEiKWY
