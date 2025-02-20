@@ -1,0 +1,22 @@
+Collect proper data :
+- Indian Ambulances & there comparative civilian vehicles
+- Indian FireFighter Trucks & Simple Trucks with red color
+- Indian Police Cars & there comparative civilian cars
+
+
+Classes & Label Data :
+Ambulance
+Fire-Brigade
+Police
+Civilian
+
+
+Save version 1
+
+Data augmentation 
+save version 2
+
+Train Model 
+
+
+Continuously Improve 

@@ -1,0 +1,12 @@
+Model trained on Roboflow and its on 10000img
+
+!pip install roboflow
+
+from roboflow import Roboflow
+rf = Roboflow(api_key="5keK78Jd2vJ9EB7lacGU")
+project = rf.workspace("ganesh-lbmbj").project("mixed-indian-usa-vehicles-dataset")
+version = project.version(2)
+dataset = version.download("yolov8")
+     
+
+follow this for training model - https://colab.research.google.com/github/roboflow-ai/notebooks/blob/main/notebooks/train-yolov8-object-detection-on-custom-dataset.ipynb#scrollTo=6ODk1VTlevxn           
