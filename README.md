@@ -1,26 +1,27 @@
-Emergency vehicles, such as ambulances, fire trucks,
-and police cars, require minimal response times to effectively
-manage critical situations and prevent loss of life and property
-damage. However, these vehicles frequently encounter delays due
-to traffic congestion, primarily caused by conventional traffic
-signal systems that lack emergency vehicle prioritization. While
-modern smart traffic lights have been introduced to optimize
-traffic flow, they do not incorporate effective mechanisms to
-detect and prioritize emergency vehicles (EMVs).
-To address this limitation, this study proposes a deep learningbased traffic management system that employs the YOLO (You
-Only Look Once) model for real-time detection and classification
-of EMVs using traffic camera feeds. The system integrates
-a dynamic prioritization algorithm that adjusts green light
-durations based on the type and number of emergency vehicles
-present in each lane.
+<h1 align="center">🚨 Emergency Vehicle Detection & Traffic Management</h1>
 
-System Architecture :
-![Final SIH - TrafficCrew pptx](https://github.com/user-attachments/assets/ddba523e-e7e1-4c81-9f36-55f0a4cb78f4)
+<h3 align="center">A Deep Learning Based System to Prioritize Emergency Vehicles at Traffic Junctions 🚦</h3>
 
-Yolov8 Model Predictions :
-![test_img2](https://github.com/user-attachments/assets/bdb22368-e5bb-442c-8714-435c30d23acc)
+---
 
-![Screenshot (807)](https://github.com/user-attachments/assets/7a88694b-c023-466a-b505-cf2e2c935436)
+This project presents an AI-powered traffic management solution that uses **YOLOv8** for **real-time detection** and classification of emergency vehicles (ambulances, fire trucks, and police cars). The system integrates a **dynamic prioritization algorithm** to automatically adjust traffic signals—minimizing delays and ensuring quick passage of emergency services.
+
+Built as part of **Smart India Hackathon (SIH) 2024**, the project focuses on improving urban mobility during emergencies.
+
+---
+
+<h3 align="center">📊 Results & Visuals</h3>
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/ddba523e-e7e1-4c81-9f36-55f0a4cb78f4" width="600"/><br/>
+  <em>System Architecture</em>
+</p>
+
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/bdb22368-e5bb-442c-8714-435c30d23acc" width="600"/><br/>
+  <img src="https://github.com/user-attachments/assets/7a88694b-c023-466a-b505-cf2e2c935436" width="600"/>
+</p>
 
 
 
